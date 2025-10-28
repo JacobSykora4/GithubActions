@@ -28,6 +28,8 @@ public class Addition
 	}
 	[TestClass]
 }
+
+[TestClass]
 public class Subtraction
 {
 	[TestMethod]
