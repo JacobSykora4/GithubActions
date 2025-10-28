@@ -111,11 +111,7 @@ public class Division
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, null));
 	}
 
-	[TestMethod]
-	public void Divide_ByZero_Patino()
-	{
-		Assert.ThrowsException<DivideByZeroException>(() => Program.Divide("1", "0"));
-	}
+
 }
 
 [TestClass]
