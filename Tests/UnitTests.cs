@@ -26,7 +26,6 @@ public class Addition
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, "1"));
 		Assert.ThrowsException<ArgumentNullException>(() => Program.Add(null, null));
 	}
-	[TestClass]
 }
 
 [TestClass]
